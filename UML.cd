@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Thrift.Collections.THashSet&lt;T&gt;" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="13.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAABAQAAQABAQAAAAAAAAAAAAAAABQIQA=</HashCode>
+      <FileName>Collections\THashSet.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thrift.Protocol.TBase64Utils" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEIAAAAAAAAAAAAAAAAAAAAAAABAAAAAACAAAAA=</HashCode>
+      <FileName>Protocol\TBase64Utils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Protocol.TBinaryProtocol" Collapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wAJAUARJFAjIpioAEAgK0KAAAAOEAGIjCIBEAUEAFoA=</HashCode>
+      <FileName>Protocol\TBinaryProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Protocol.TJSONProtocol" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>1EMCECRJVCz0pmo1CogK9AAKRhCdB1IhAYBEgUEQgyg=</HashCode>
+      <FileName>Protocol\TJSONProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Protocol.TProtocol" Collapsed="true">
+    <Position X="1.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wCIAEARJFAjApioAAggKwAQAAACEAUIhAABEAUEAAgA=</HashCode>
+      <FileName>Protocol\TProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Protocol.TProtocolException" Collapsed="true">
+    <Position X="11.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAADAAAAAAAAAAAAAAAQAQAAAAAAABAAAAABE=</HashCode>
+      <FileName>Protocol\TProtocolException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Protocol.TProtocolUtil" Collapsed="true">
+    <Position X="13.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Protocol\TProtocolUtil.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Server.TServer" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <NestedTypes>
+      <Delegate Name="Thrift.Server.TServer.LogDelegate" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Server\TServer.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAAAAIAQAAEAACAAAAAAgAAAAAYAAAAgAAAAA=</HashCode>
+      <FileName>Server\TServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Server.TSimpleServer" Collapsed="true">
+    <Position X="0.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAAAAgAAAAA=</HashCode>
+      <FileName>Server\TSimpleServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Server.TThreadedServer" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAQAAQAAQAAAAACgEAAEIAAABgAAAAA=</HashCode>
+      <FileName>Server\TThreadedServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Server.TThreadPoolServer" Collapsed="true">
+    <Position X="5.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAQAAAAAQAAAAAAgAAAAIAAAAgAAAAA=</HashCode>
+      <FileName>Server\TThreadPoolServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.TApplicationException" Collapsed="true">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>TApplicationException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Transport.TBufferedTransport" Collapsed="true">
+    <Position X="7.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IEAAAAAAAAAAIAAAAAAAAAAhAAAEAAAAAAAAAoGIAAA=</HashCode>
+      <FileName>Transport\TBufferedTransport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Transport.TFramedTransport" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Thrift.Transport.TFramedTransport.Factory" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Transport\TFramedTransport.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAgAOgAAAAAAAAAggAAEAAAAAAAIAAGIAAA=</HashCode>
+      <FileName>Transport\TFramedTransport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Transport.THttpClient" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQAAAAAAAAAIQAwAAEAAACgAAAYAAAAEAAQAAGMAAA=</HashCode>
+      <FileName>Transport\THttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Transport.THttpHandler" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAABAAAAQAAABACAAAAAAAAAJAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transport\THttpHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Thrift.Transport.TServerSocket" Collapsed="true">
+    <Position X="5.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAEAAAAAAAAAAIAAAAAgAAAAAEACAAAI=</HashCode>
+      <FileName>Transport\TServerSocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Transport.TServerTransport" Collapsed="true">
+    <Position X="5.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Transport\TServerTransport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Transport.TSocket" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAIAAAIAAAAAAAAAAACAAACAoAAAgGBACAAAA=</HashCode>
+      <FileName>Transport\TSocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Transport.TStreamTransport" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAIAAQAAAAEAAgAAAAAAAAAAAQAAGIEAA=</HashCode>
+      <FileName>Transport\TStreamTransport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Transport.TTransport" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAEIAAAEAAAAAAgAAAAAAAAAAAAAAGIAAA=</HashCode>
+      <FileName>Transport\TTransport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Transport.TTransportException" Collapsed="true">
+    <Position X="10" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Transport\TTransportException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Thrift.Transport.TTransportFactory" Collapsed="true">
+    <Position X="11.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transport\TTransportFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Thrift.Protocol.TField" Collapsed="true">
+    <Position X="10" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAQAAAAFAAAAAQAAAAAAAgA=</HashCode>
+      <FileName>Protocol\TField.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Thrift.Protocol.TList" Collapsed="true">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Protocol\TList.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Thrift.Protocol.TMap" Collapsed="true">
+    <Position X="13.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAABQAAAAQAAAAAAAQAAAAEAA=</HashCode>
+      <FileName>Protocol\TMap.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Thrift.Protocol.TMessage" Collapsed="true">
+    <Position X="10" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAQAAAAFAAAAAQAAAAAACAA=</HashCode>
+      <FileName>Protocol\TMessage.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Thrift.Protocol.TSet" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Protocol\TSet.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="Thrift.Protocol.TStruct" Collapsed="true">
+    <Position X="13.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Protocol\TStruct.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Thrift.Protocol.TBase" Collapsed="true">
+    <Position X="10" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Protocol\TBase.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Thrift.Protocol.TProtocolFactory" Collapsed="true">
+    <Position X="13.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Protocol\TProtocolFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Thrift.TProcessor" Collapsed="true">
+    <Position X="11.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Thrift.Protocol.TMessageType" Collapsed="true">
+    <Position X="10" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAQAAAAACAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Protocol\TMessageType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Thrift.Protocol.TType" Collapsed="true">
+    <Position X="11.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAABAABAAgQAAAAAAABAACAAEAIAAAAAAKAAI=</HashCode>
+      <FileName>Protocol\TType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
